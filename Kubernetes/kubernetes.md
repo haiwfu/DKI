@@ -1,7 +1,7 @@
 **kubernetes**
 * kubernetes简介
-   * 初衷
-   * kubernetes集群架构
+   * 初体验
+   * kubernetes基本概念和组件
 * Kubernetes安装
    * minikube
    * kubeadm
@@ -14,9 +14,8 @@
    * namespace
    * 停止和移除pod
 * 部署pod 
-   * Pod存活探针
+   * Pod健康检查
    * ReplicationController
-   * ReplicaSet
    * DaemonSet
    * Job
    * 服务
@@ -26,17 +25,15 @@
    * 将服务暴露给外部
    * Ingress服务暴露
    * Engress访问外部服务
-   * pod就绪探针
    * headless服务
 *卷
    * 容器之间共享数据
    * 挂载节点文件的数据文件
    * 持久化存储
 * ConfigMap & Secret
-   * 向容器传送命令行参数
-   * 为容器设置环境变量
    * 利用configMap解耦配置
    * 利用Secret传送敏感数据
+   * RBAC
 * 应用访问pod元数据
    * Downward API 传送元数据
    * 与kubernetes API服务器交互
@@ -47,8 +44,6 @@
 * StatefulSet 有状态的多副本应用
    * 了解StatefullSet
    * 使用StatefullSet
-* kubernetes架构
-* kubernetesAPI服务器的安全防护
 * 计算资源管理
 * POD自动伸缩
 * Pod高级调度
